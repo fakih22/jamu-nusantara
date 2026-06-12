@@ -1,0 +1,56 @@
+const articles = [
+  {
+    category: 'Tips Kesehatan Herbal',
+    title: 'Kunyit vs Temulawak: kapan minum yang mana?',
+    description: 'Panduan sederhana memilih jamu pagi & malam.',
+    image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=700&auto=format&fit=crop&q=80'
+  },
+  {
+    category: 'Wawasan Nutrisi',
+    title: 'Mengapa jamu harus cold-pressed?',
+    description: 'Menjaga enzim & rasa asli rimpang.',
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=700&auto=format&fit=crop&q=80'
+  },
+  {
+    category: 'Gaya Hidup Sehat',
+    title: 'Ritual pagi 5 menit ala Nusantara',
+    description: 'Peregangan, napas, dan segelas jamu dingin.',
+    image: 'https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&auto=format&fit=crop&q=80'
+  }
+];
+
+export default function Blog() {
+  return (
+    <section className="py-20 sm:py-24">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+        <div className="flex items-end justify-between flex-wrap gap-3 mb-8 reveal">
+          <h2 className="display-font text-[34px] sm:text-[42px]">Jurnal Jamu</h2>
+          <a href="#" className="text-[14px] font-semibold underline underline-offset-4">
+            Lihat semua artikel →
+          </a>
+        </div>
+        <div className="grid md:grid-cols-3 gap-6">
+          {articles.map((article, index) => (
+            <article
+              key={index}
+              className="paper rounded-[20px] border hairline overflow-hidden hover:shadow-soft transition reveal"
+            >
+              <img
+                src={article.image}
+                alt={article.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-5">
+                <div className="text-[11px] tracking-widest text-jamu-sage uppercase">
+                  {article.category}
+                </div>
+                <h3 className="font-semibold text-[18px] mt-2 leading-snug">{article.title}</h3>
+                <p className="muted text-[14px] mt-2">{article.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,36 +1,184 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jamu Nusantara - Next.js Website
 
-## Getting Started
+Website premium untuk Jamu Nusantara yang dibangun dengan Next.js 16, TypeScript, dan Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
+
+- ✅ **Modern Next.js 16** dengan App Router
+- ✅ **TypeScript** untuk type safety
+- ✅ **Tailwind CSS 4** untuk styling
+- ✅ **Responsive Design** - Mobile-first approach
+- ✅ **Dark Mode** dengan local storage persistence
+- ✅ **Smooth Animations** - Reveal on scroll, transitions
+- ✅ **Interactive Components**:
+  - Product search & filtering
+  - Product comparison modal
+  - Quick view modal
+  - Shopping cart
+  - Testimonial carousel
+  - FAQ accordion
+  - Contact form
+  - Newsletter subscription
+  - Countdown timer
+  - Toast notifications
+
+## 📦 Tech Stack
+
+- **Framework**: Next.js 16.2.9
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 4
+- **Icons**: Lucide React
+- **Fonts**: Google Fonts (Fraunces, Plus Jakarta Sans)
+
+## 🛠️ Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/
+├── components/           # React components
+│   ├── Navbar/          # Navigation bar with cart
+│   ├── Hero/            # Hero section
+│   ├── Products/        # Product grid with modals
+│   ├── Benefits/        # Benefits section
+│   ├── Ingredients/     # Ingredients showcase
+│   ├── WhyUs/           # Why choose us
+│   ├── Testimonials/    # Customer testimonials
+│   ├── HowItWorks/      # Step-by-step guide
+│   ├── Blog/            # Blog preview
+│   ├── Promo/           # Promotional banner
+│   ├── FAQ/             # FAQ accordion
+│   ├── AppPromo/        # Mobile app promotion
+│   ├── Contact/         # Contact form
+│   ├── Footer/          # Footer
+│   ├── Toast/           # Toast notifications
+│   ├── TrustStrip/      # Trust badges
+│   ├── ScrollProgress/  # Scroll progress bar
+│   ├── WhatsAppButton/  # Floating WhatsApp button
+│   └── RevealOnScroll/  # Scroll reveal animations
+├── lib/
+│   └── data.ts          # Product, FAQ, Testimonial data
+├── globals.css          # Global styles & Tailwind config
+├── layout.tsx           # Root layout
+└── page.tsx             # Home page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+public/                  # Static assets
+```
 
-## Learn More
+## 🎨 Design Features
 
-To learn more about Next.js, take a look at the following resources:
+### Color Palette
+- **Primary Green**: `#13291d` (Jamu Forest)
+- **Sage Green**: `#7a9280`
+- **Gold Accent**: `#c89a5b`
+- **Cream Background**: `#fdfbf7`
+- **Beige**: `#e7ddd0`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Typography
+- **Display Font**: Fraunces (Serif)
+- **Body Font**: Plus Jakarta Sans (Sans-serif)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Components
 
-## Deploy on Vercel
+#### Navbar
+- Fixed position with glass morphism effect
+- Dark mode toggle
+- Shopping cart counter
+- Mobile menu
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Products Section
+- Real-time search
+- Filter by benefits (Immunity, Digestion, Energy, Detox)
+- Product comparison (max 3 products)
+- Quick view modal
+- Add to cart functionality
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### Testimonials
+- Auto-rotating carousel (5.6s interval)
+- Navigation arrows
+- Dot indicators
+- Smooth transitions
+
+#### FAQ
+- Accordion style
+- Smooth expand/collapse
+- Clean design
+
+#### Contact Form
+- Form validation
+- Toast notification on submit
+- WhatsApp quick link
+
+## 🔧 Configuration
+
+### Tailwind CSS
+Custom colors and utilities are defined in `globals.css`:
+- Jamu color palette
+- Custom shadows
+- Glass morphism effects
+- Animation classes
+
+### Fonts
+Fonts are loaded via Next.js Font Optimization:
+- Fraunces: Display font for headings
+- Plus Jakarta Sans: Body text
+
+## 📱 Responsive Breakpoints
+
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🌙 Dark Mode
+
+Dark mode implemented with:
+- CSS variables for theme colors
+- Local storage for persistence
+- Smooth transitions
+- Toggle in navbar
+
+## 🚀 Performance
+
+- Static Site Generation (SSG)
+- Image optimization with Next.js Image
+- Font optimization with Next.js Font
+- Code splitting
+- Lazy loading
+
+## 📝 Data Management
+
+All static data (products, FAQs, testimonials) are stored in `app/lib/data.ts` for easy management and updates.
+
+## 🎯 SEO
+
+- Semantic HTML
+- Meta tags configured
+- Open Graph ready
+- Descriptive alt texts
+- Proper heading hierarchy
+
+## 📄 License
+
+© 2024 Jamu Nusantara, PT Herba Sehat Indonesia. All rights reserved.
+
+## 🤝 Contributing
+
+This is a proprietary project. For inquiries, contact: halo@jamunusantara.id
+
+---
+
+**Developed with ❤️ using Next.js**
