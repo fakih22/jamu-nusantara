@@ -19,7 +19,7 @@ import AppPromo from './components/AppPromo/AppPromo';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Toast from './components/Toast/Toast';
-import RevealOnScroll from './components/RevealOnScroll/RevealOnScroll';
+import AnimatedSection from './components/AnimatedSection/AnimatedSection';
 
 export default function Home() {
   const [toastMessage, setToastMessage] = useState('');
@@ -41,24 +41,23 @@ export default function Home() {
       <Navbar />
       
       <main id="home">
-        <Hero />
-        <TrustStrip />
-        <Products showToast={showToast} />
-        <Benefits />
-        <Ingredients />
-        <WhyUs />
-        <Testimonials />
-        <HowItWorks />
-        <Blog />
-        <Promo />
-        <FAQ />
-        <AppPromo />
-        <Contact showToast={showToast} />
+        <AnimatedSection><Hero /></AnimatedSection>
+        <AnimatedSection><TrustStrip /></AnimatedSection>
+        <AnimatedSection><Products showToast={showToast} /></AnimatedSection>
+        <AnimatedSection><Benefits /></AnimatedSection>
+        <AnimatedSection><Ingredients /></AnimatedSection>
+        <AnimatedSection><WhyUs /></AnimatedSection>
+        <AnimatedSection><Testimonials /></AnimatedSection>
+        <AnimatedSection><HowItWorks /></AnimatedSection>
+        <AnimatedSection><Blog /></AnimatedSection>
+        <AnimatedSection><Promo /></AnimatedSection>
+        <AnimatedSection><FAQ /></AnimatedSection>
+        <AnimatedSection><AppPromo /></AnimatedSection>
+        <AnimatedSection><Contact showToast={showToast} /></AnimatedSection>
       </main>
 
       <Footer showToast={showToast} />
       <Toast message={toastMessage} isVisible={isToastVisible} onClose={closeToast} />
-      <RevealOnScroll />
     </>
   );
 }
