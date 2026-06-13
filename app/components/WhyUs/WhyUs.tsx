@@ -39,7 +39,7 @@ export default function WhyUs() {
             </p>
             <div className="mt-6 rounded-[20px] overflow-hidden border hairline">
               <img
-                src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=900&auto=format&fit=crop&q=80"
+                src="https://i.pinimg.com/736x/e1/b3/4e/e1b34eb727bbb931bb35394c3bb904fb.jpg"
                 alt="Jamu brewing process"
                 className="w-full h-64 object-cover"
               />
