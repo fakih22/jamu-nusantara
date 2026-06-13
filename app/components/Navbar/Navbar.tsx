@@ -14,11 +14,14 @@ export default function Navbar() {
   useEffect(() => {
     setMounted(true);
     const savedTheme = localStorage.getItem('jamu-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
-    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+
+    // Default to light mode; only apply dark if user explicitly chose it before
+    if (savedTheme === 'dark') {
       document.documentElement.classList.add('dark');
       setIsDark(true);
+    } else {
+      document.documentElement.classList.remove('dark');
+      setIsDark(false);
     }
   }, []);
 
