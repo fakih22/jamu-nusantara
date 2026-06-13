@@ -1,4 +1,3 @@
-import { Eye } from 'lucide-react';
 import { Product } from '@/app/lib/data';
 
 interface ProductCardProps {
@@ -18,19 +17,19 @@ export default function ProductCard({
 }: ProductCardProps) {
   return (
     <div className="group product-card paper rounded-[22px] border hairline overflow-hidden soft-shadow hover:shadow-soft-lg transition reveal in">
-      <div className="relative overflow-hidden bg-[#f0e7d9] dark:bg-[#1d2820] h-[250px]">
+      {/* Clickable image area — opens detail popup */}
+      <div
+        className="relative overflow-hidden bg-[#f0e7d9] dark:bg-[#1d2820] h-[250px] cursor-pointer"
+        onClick={onQuickView}
+        title="Lihat detail produk"
+      >
         <img
           src={product.img}
           alt={product.name}
           className="product-img w-full h-full object-cover"
         />
-        <button
-          onClick={onQuickView}
-          className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 dark:bg-black/40 backdrop-blur flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
-          title="Lihat cepat"
-        >
-          <Eye className="w-[16px] h-[16px]" />
-        </button>
+        {/* Subtle hover overlay */}
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
         <span className="absolute left-3 top-3 chip">{product.tag}</span>
       </div>
       <div className="p-5">
