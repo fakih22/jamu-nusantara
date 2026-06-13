@@ -37,7 +37,7 @@ export default function Contact({ showToast }: ContactProps) {
                   required
                   type="email"
                   name="email"
-                  placeholder="email@domain.com"
+                  placeholder="yourmail@gmail.com"
                   className="mt-1 w-full rounded-xl px-3.5 py-3 text-[14px]"
                 />
               </div>
