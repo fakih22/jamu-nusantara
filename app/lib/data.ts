@@ -23,16 +23,6 @@ export const products: Product[] = [
     notes: '250ml • 45 kkal • Tanpa pengawet'
   },
   {
-    id: 'immunity',
-    name: 'Jamu Immunity Booster',
-    price: 42000,
-    tag: 'Immunity',
-    benefits: ['Immunity', 'Energy'],
-    desc: 'Kunyit + jahe merah + temulawak + probiotik alami. Power shot.',
-    img: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=700&auto=format&fit=crop&q=80',
-    notes: '200ml • 35 kkal • Extra gingerol'
-  },
-  {
     id: 'wedang_uwuh',
     name: 'Wedang Uwuh',
     price: 38000,
