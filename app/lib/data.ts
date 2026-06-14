@@ -66,7 +66,7 @@ export const products: Product[] = [
   },
   {
     id: 'kudu_laos',
-    name: 'Jamu Kudu Laos',
+    name: 'Jamu Kaldu Laos',
     price: 35000,
     tag: 'Digestion',
     benefits: ['Digestion', 'Energy'],
