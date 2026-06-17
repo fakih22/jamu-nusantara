@@ -12,7 +12,7 @@ const features = [
     description: 'MD 123456789012 • Halal MUI'
   },
   {
-    title: 'Kemasan Ramah Lingkungan',
+    title: 'Kemasan Ramah Lingkungans',
     description: 'Botol kaca returnable, label kertas daur ulang.'
   },
   {
