@@ -26,7 +26,7 @@ export default function Footer({ showToast }: FooterProps) {
               <div className="font-display font-600 text-[18px]">Jamu Nusantara</div>
             </div>
             <p className="muted mt-3 leading-relaxed">
-              Jamu warisan Indonesia, diracik modern di Jakarta Barat. BPOM • Halal • Tanpa pengawet.
+              Jamu warisan Indonesia, diracik modern di Jakarta Barat. BPOM • Halal • Tanpa pengawet murni.
             </p>
             <div className="flex gap-3 mt-4 text-jamu-sage">
               <a href="#" aria-label="Instagram">
