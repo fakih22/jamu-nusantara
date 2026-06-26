@@ -9,7 +9,7 @@ const articles = [
     category: 'Wawasan Nutrisi',
     title: 'Mengapa jamu harus cold-pressed?',
     description: 'Menjaga enzim & rasa asli rimpang.',
-    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=700&auto=format&fit=crop&q=80'
+    image: 'https://i.pinimg.com/1200x/8d/43/8c/8d438c24e327e9a925d4042b5e471222.jpg'
   },
   {
     category: 'Gaya Hidup Sehat',
