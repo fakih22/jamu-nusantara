@@ -15,7 +15,7 @@ const articles = [
     category: 'Gaya Hidup Sehat',
     title: 'Ritual pagi 5 menit ala Nusantara',
     description: 'Peregangan, napas, dan segelas jamu dingin.',
-    image: 'https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&auto=format&fit=crop&q=80'
+    image: 'https://i.pinimg.com/1200x/ef/f3/b3/eff3b34ad986ebab85fc72f7e0e9277c.jpg'
   }
 ];
 
