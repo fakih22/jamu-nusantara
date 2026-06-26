@@ -17,7 +17,7 @@ const steps = [
   {
     number: '4',
     title: 'Nikmati Hidup Sehat',
-    description: 'Minum dingin setiap pagi. Rasakan bedanya 7 hari.'
+    description: 'Minum dingin setiap hari. Rasakan bedanya 7 hari.'
   }
 ];
 
