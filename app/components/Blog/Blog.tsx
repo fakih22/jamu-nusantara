@@ -3,7 +3,7 @@ const articles = [
     category: 'Tips Kesehatan Herbal',
     title: 'Kunyit vs Temulawak: kapan minum yang mana?',
     description: 'Panduan sederhana memilih jamu pagi & malam.',
-    image: 'https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=700&auto=format&fit=crop&q=80'
+    image: 'https://i.pinimg.com/736x/1b/56/db/1b56db1f00ce7c7f55a687be37f04c6e.jpg'
   },
   {
     category: 'Wawasan Nutrisi',
