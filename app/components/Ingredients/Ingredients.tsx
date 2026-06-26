@@ -5,7 +5,7 @@ const ingredients = [
     badgeColor: 'amber',
     name: 'Kunyit',
     desc: 'Kaya curcumin, bantu imunitas & meredakan nyeri sendi ringan.',
-    origin: 'Asal: Karanganyar • Panen: 9 bulan'
+    origin: 'Asal: Karanganyar • Panen: 9 bulan.'
   },
   {
     latin: 'Zingiber Officinale',
