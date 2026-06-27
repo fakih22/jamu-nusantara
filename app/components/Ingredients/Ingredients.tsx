@@ -1,6 +1,6 @@
 const ingredients = [
   {
-    latin: 'Curcuma Longa',
+    latin: 'Curcuma Longas',
     badge: 'Anti-inflamasi',
     badgeColor: 'amber',
     name: 'Kunyit',
