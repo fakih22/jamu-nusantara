@@ -29,7 +29,7 @@ const ingredients = [
     badgeColor: 'amber',
     name: 'Asam Jawa',
     desc: 'Asam alami kaya vitamin C, bantu pencernaan & segar.',
-    origin: 'Asal: Madura • Grade A'
+    origin: 'Asal: Surakarta • Grade A'
   },
   {
     latin: 'Curcuma Xanthorrhiza',
