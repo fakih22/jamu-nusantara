@@ -40,7 +40,7 @@ const ingredients = [
     origin: 'Asal: Gunung Kiduls.'
   },
   {
-    latin: 'Cinnamomum',
+    latin: 'Cinnamomums',
     badge: 'Antioksidan',
     badgeColor: 'amber',
     name: 'Kayu Manis',
