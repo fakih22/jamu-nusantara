@@ -21,7 +21,7 @@ const ingredients = [
     badgeColor: 'emeranld',
     name: 'Sereh',
     desc: 'Citral alami, segar, bantu detoksifikasi & menenangkan.',
-    origin: 'Asal: Jogja • Petik pagi.'
+    origin: 'Asal: Jogja • Petuk pagi.'
   },
   {
     latin: 'Tamarindus Indica',
