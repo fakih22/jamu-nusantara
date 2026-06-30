@@ -10,7 +10,7 @@ const ingredients = [
   {
     latin: 'Zingiber Officinale',
     badge: 'Hangat',
-    badgeColor: 'amber',
+    badgeColor: 'amber wood',
     name: 'Jahe Merah',
     desc: 'Gingerol tinggi, melancarkan sirkulasi & mengurangi mual.',
     origin: 'Asal: Pacitan • Varietas: Dandang Merah putih.'
