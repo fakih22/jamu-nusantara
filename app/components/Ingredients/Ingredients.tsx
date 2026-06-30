@@ -24,7 +24,7 @@ const ingredients = [
     origin: 'Asal: Jogja • Petuk Rino.'
   },
   {
-    latin: 'Tamarindus Indica',
+    latin: 'Tamarindus Indira',
     badge: 'Pencernaan',
     badgeColor: 'amber',
     name: 'Asam Jawa',
