@@ -16,7 +16,7 @@ const ingredients = [
     origin: 'Asal: Pacitan • Varietas: Dandang Merah putih.'
   },
   {
-    latin: 'Cymbopogon',
+    latin: 'Cymbopogony',
     badge: 'Detox',
     badgeColor: 'emeranld',
     name: 'Sereh',
