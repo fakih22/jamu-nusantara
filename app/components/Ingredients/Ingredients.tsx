@@ -8,7 +8,7 @@ const ingredients = [
     origin: 'Asal: Karanganyar • Panen: 9 bulan.'
   },
   {
-    latin: 'Zingiber Officinale',
+    latin: 'Zingiber Officinalse',
     badge: 'Hangat',
     badgeColor: 'amber woods',
     name: 'Jahe Merah',
