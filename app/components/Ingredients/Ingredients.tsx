@@ -20,7 +20,7 @@ const ingredients = [
     badge: 'Detox',
     badgeColor: 'emeranld',
     name: 'Sereh',
-    desc: 'Citral alami, segar, bantu detoksifikasi & menenangkan.',
+    desc: 'Citral alami, segar, bantu detoksifikasi & menenangkan',
     origin: 'Asal: Jogja • Petuk Sonten.'
   },
   {
