@@ -3,7 +3,7 @@ const ingredients = [
     latin: 'Curcuma Longas',
     badge: 'Anti-inflamasi',
     badgeColor: 'amber',
-    name: 'Kunyit',
+    name: 'Kunyit manis',
     desc: 'Kaya curcumin, bantu imunitas & meredakan nyeri sendi ringan.',
     origin: 'Asal: Karanganyar • Panen: 9 bulan.'
   },
