@@ -36,7 +36,7 @@ const ingredients = [
     badge: 'Tonik Hati',
     badgeColor: 'amber',
     name: 'Temulawak',
-    desc: 'Tonik hati tradisional, bantu nafsu makan & stamina.',
+    desc: 'Tonik hati tradisional, bantu nafsu makan',
     origin: 'Asal: Gunung Kidul.'
   },
   {
