@@ -32,7 +32,7 @@ const ingredients = [
     origin: 'Asal: Surakarta • Grade A'
   },
   {
-    latin: 'Curcuma Xanthorrhiza',
+    latin: 'Curcuma Xanthorrhiz',
     badge: 'Tonik Hati',
     badgeColor: 'amber',
     name: 'Temulawak',
