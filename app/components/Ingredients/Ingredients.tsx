@@ -33,7 +33,7 @@ const ingredients = [
   },
   {
     latin: 'Curcuma Xanthorrhiz',
-    badge: 'Tonik Hati',
+    badge: 'Tonik Hatiii',
     badgeColor: 'amber',
     name: 'Temulawak',
     desc: 'Tonik hati tradisional, bantu nafsu makan',
