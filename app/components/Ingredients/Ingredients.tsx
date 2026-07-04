@@ -17,7 +17,7 @@ const ingredients = [
   },
   {
     latin: 'Cymbopogony',
-    badge: 'Detox',
+    badge: 'Detoxs',
     badgeColor: 'emeranld',
     name: 'Sereh',
     desc: 'Citral alami, segar, bantu detoksifikasi & menenangkan',
