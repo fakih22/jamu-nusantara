@@ -63,7 +63,7 @@ export default function Ingredients() {
             </h2>
           </div>
           <p className="muted max-w-md">
-            Dipetik saat matang optimal dari mitra petani di Jawa & Sumatera. Tidak ada konsentrat.
+            Dipetik saat matang optimal dari mitra petani di Jawa & Kalimantan. Tidak ada konsentrat.
           </p>
         </div>
 
