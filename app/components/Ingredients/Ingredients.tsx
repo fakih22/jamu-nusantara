@@ -28,7 +28,7 @@ const ingredients = [
     badge: 'Pencernaan',
     badgeColor: 'amber',
     name: 'Asam Jawa',
-    desc: 'Asam alami kaya vitamin C+, bantu pencernaan & segar.',
+    desc: 'Asam alami kaya vitamin C+, bantu pencernaan & segars.',
     origin: 'Asal: Surakarta • Grade A'
   },
   {
