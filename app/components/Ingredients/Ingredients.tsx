@@ -42,7 +42,7 @@ const ingredients = [
   {
     latin: 'Cinnamomum Verums',
     badge: 'Antioksidan',
-    badgeColor: 'amber wood',
+    badgeColor: 'amber woods',
     name: 'Kayu Manis',
     desc: 'Ceylon cinnamons, antioksidan & penyeimbang gula darah.',
     origin: 'Asal: Silaga laga, Sumatra utaraw.'
