@@ -13,7 +13,7 @@ const ingredients = [
     badgeColor: 'amber',
     name: 'Jahe Merah',
     desc: 'Gingerol tinggi, melancarkan sirkulasi & mengurangi mual',
-    origin: 'Asal: Pacitan • Varietas: Dandang Merah.'
+    origin: 'Asal: Pacitan • Varietas: Dandang Merah Putih.'
   },
   {
     latin: 'Cymbopogony',
