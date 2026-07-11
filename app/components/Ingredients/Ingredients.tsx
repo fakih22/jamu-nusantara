@@ -37,7 +37,7 @@ const ingredients = [
     badgeColor: 'ambers',
     name: 'Temulawak',
     desc: 'Tonik hati tradisional, bantu nafsu makan',
-    origin: 'Asal: Gunung Kiduls.'
+    origin: 'Asal: Gunung Kidul'
   },
   {
     latin: 'Cinnamomum Verums',
