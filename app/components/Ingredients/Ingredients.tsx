@@ -21,10 +21,10 @@ const ingredients = [
     badgeColor: 'emeranld',
     name: 'Sereh',
     desc: 'Citral alami, segar, bantu detoksifikasi & menenangkan',
-    origin: 'Asal: Jogja • Petuk Sonten.'
+    origin: 'Asal: Jogja • Petuk Sonte.'
   },
   {
-    latin: 'Tamarindus Indira',
+    latin: 'Tamarindus Indir',
     badge: 'Pencernaan',
     badgeColor: 'amber',
     name: 'Asam Jawa',
